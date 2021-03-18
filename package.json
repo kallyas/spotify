@@ -1,0 +1,28 @@
+{
+  "name": "spotify",
+  "version": "1.0.0",
+  "description": "React Spotify Player",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./server/server.js",
+    "dev": "nodemon ./server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kallyas/spotify.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kallyas/spotify/issues"
+  },
+  "homepage": "https://github.com/kallyas/spotify#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
